@@ -1,8 +1,18 @@
 # Medelvärde
+def medel(tal):
+        tal_lista = tal.split()
+        ant = len(tal_lista)
+        sum = 0
+        for tal in tal_lista:
+            sum = sum + int(tal)
+        mv = sum/ant
+        return mv
 
 def main():
-    # Skriv din lösning här nedan. Byt ut "pass" mot din kod.
-    pass
+    tal = input("")
+    medel(tal)
+        
+        
 
 if __name__ == "__main__":
     main()

@@ -1,8 +1,14 @@
 # Största skillnad
 
 def main():
-    # Skriv din lösning här nedan. Byt ut "pass" mot din kod.
-    pass
+    def max_diff(tal):
+        list = tal.split()
+        print(list)
+
+        
+
+
+    tal = input("")
 
 if __name__ == "__main__":
     main()
